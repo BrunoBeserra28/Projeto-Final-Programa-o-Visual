@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>PapelariaApp</RootNamespace>
+    <AssemblyName>PapelariaApp</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Driver MySQL (restaurado automaticamente pelo NuGet) -->
+    <PackageReference Include="MySqlConnector" Version="2.3.7" />
+  </ItemGroup>
+
+</Project>
